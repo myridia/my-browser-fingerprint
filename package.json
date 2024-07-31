@@ -1,0 +1,20 @@
+{
+  "name": "my-browser-fingerprint",
+  "version": "1.2.3",
+    "author": "veto <veto@myrdia.com>",
+    "homepage":"https://w3.calantas.org/npm_modules/my-browser-fingerprint/",
+  "repository": "https://calantas.org/my-browser-fingerprint",
+  "license": "GPL-3.0-or-later",
+  "main": "src/index.js",
+    "type": "module",
+    "keywords": [
+  "website",
+  "webpage",
+  "fingerprint",
+  "browser"
+  ],
+
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
