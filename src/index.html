@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo: my-browser-fingerprint</title>
+  </head>
+  <body>
+    <h1>Demo my-browser-fingerprint npm module</h1>
+
+
+    <script type="module">
+    import my_browser_fingerprint from './index.js';
+    let fingerprint =  my_browser_fingerprint({debug:false,myspec:['appCodeName',
+                                      'appName',
+                                      'appVersion',
+                                      'colorDepth',
+                                      'cookieEnabled',
+                                      'deviceMemory',
+                                      'doNotTrack',
+                                      'hardwareConcurrency',
+                                      'language',
+                                      'languages',
+                                      'maxTouchPoints',
+                                      'pixelDepth',
+                                      'platform',
+                                      'product',
+                                      'productSub',
+                                      'touchSupport',
+                                      'userAgent',
+                                      'vendor',
+                                      'vendorSub',
+                                      'webgl',
+                                      'webglInfo']});
+
+      let div = document.querySelector("#myfingerprint").innerHTML = fingerprint;  
+    </script>
+    <h2>This is my fingerprint:</h2>
+    <div id="myfingerprint"></div>
+  </body>
+</html>
