@@ -1,3 +1,4 @@
+<img src="my-browser-fingerprint.svg" alt="my-browser-fingerprint" width="120">
 # my-browser-fingerprint
 
 Fork from https://github.com/damianobarbati/get-browser-fingerprint
